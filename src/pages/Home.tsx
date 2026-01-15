@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MoveRight } from 'lucide-react';
-import { getFeaturedFurniture, categories } from '../data/mockFurniture';
+import { getFeaturedFurniture } from '../data/mockFurniture';
 import FurnitureCard from '../components/Furniture/FurnitureCard';
 
 function FadeIn({ children, delay = 0, className = "" }: { children: React.ReactNode, delay?: number, className?: string }) {

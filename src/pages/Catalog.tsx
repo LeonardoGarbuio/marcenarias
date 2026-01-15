@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Search, SlidersHorizontal, X, ChevronDown, Check } from 'lucide-react';
+import { Search, SlidersHorizontal, X, Check } from 'lucide-react';
 import { mockFurniture, categories, type Category } from '../data/mockFurniture';
 import FurnitureCard from '../components/Furniture/FurnitureCard';
 import { cn } from '../lib/utils';
